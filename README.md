@@ -12,10 +12,10 @@ Installation :
 5. new model file will be automatically created in the folder {base_path}/model/{table_name}.php
 
 Classes :
-1. $model_class->field  // contain single field array
-2. $model_class->fields //contain record array
-3. $model_class->select($keys) // select record (return true or false)
-4. $model_class->insert() // insert record (return empty string or error message)
-5. $model_class->update() // update record (return empty string or error message)
-6. $model_class->delete() // delete record (return empty string or error message)
-7. $model_class->execute($parameter) // $paramter = "insert", or  "update", or "delete"
+1. $model->field  // contain single field array
+2. $model->fields //contain record array
+3. $model->select($keys) // select record (return true or false)
+4. $model->insert() // insert record (return empty string or error message)
+5. $model->update() // update record (return empty string or error message)
+6. $model->delete() // delete record (return empty string or error message)
+7. $model->execute($parameter) // $paramter = "insert", or  "update", or "delete"
